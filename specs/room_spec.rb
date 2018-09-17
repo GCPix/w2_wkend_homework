@@ -141,7 +141,7 @@ class RoomTest < Minitest::Test
       actual = @room.check_favourite_song(@guest1)
 
       assert_equal(true, actual)
-      #I don't the above test is correct but I can't figure out how to return the title of the class object in the @songs array, keep getting error, undefinded local variable on title
+  
     end
 
     def test_favourite_song__no
